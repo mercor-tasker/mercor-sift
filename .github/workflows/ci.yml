@@ -35,4 +35,4 @@ jobs:
         key: nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
         restore-keys: |
           nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
-     - run: npm run build
+    - run: npm run build
